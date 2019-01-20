@@ -1,0 +1,85 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container-one, .container-one-one, .container-one-two{
+    border: 1px solid rgb(179, 174, 174);
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.container-one-one {
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 0;
+}
+
+.container-one-two, .container-one-three {
+    margin-top: 20px;
+    margin-left: 200px;
+    opacity: 0;
+}
+
+.p-one, .p-one-one {
+    margin-top: 21px;
+}
+
+.p-one-two {
+    margin-top: 25px;
+}
+
+.p-one-two, .p-two {
+    border: 1px solid rgb(179, 174, 174);
+    width: 200px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+.select {
+    margin-left: 5px;
+    width: 212px;
+}
+
+.select-one {
+    width: 101px;
+    margin-left: 5px;
+}
+
+.answer, {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-one {
+    display: flex;
+}
+
+.buttons {
+    margin-top: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+input {
+    margin-left: 5px;
+}
+
+.input-one {
+    width: 97px;
+}
+
+.add-input {
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    opacity: 0;
+}
