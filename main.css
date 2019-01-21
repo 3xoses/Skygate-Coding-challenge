@@ -32,7 +32,7 @@
     margin-top: 21px;
 }
 
-.p-one-two {
+.p-one-two, .p-two-one {
     margin-top: 25px;
 }
 
@@ -81,5 +81,5 @@ input {
     margin-top: 30px;
     height: 50px;
     width: 100px;
-    opacity: 0;
+    opacity: 1;
 }

@@ -27,5 +27,13 @@ btnDeleteTwo.addEventListener('click', function (event) {
 });
 
 // add car type 
-let carValue = document.forms['form-one'].inputText.value;
+let showResults = document.querySelector('#showBtn')
+showResults.addEventListener('click',()=>{
+  end()
+})
+let end = function () {
+  let carValue = document.querySelector('#inputCarModel').value;
+  let results = document.querySelector('#carModel')
+  results.innerText = carValue
+}
 
